@@ -1,0 +1,4 @@
+what have i leanred so far?
+- i have learned that there are secure ways of storing your scripts and how to
+  create a token, which is fun. 
+  
