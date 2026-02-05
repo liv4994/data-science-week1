@@ -35,7 +35,7 @@ Which variable(s) affected: collector, eggs laid, body mass
 Why this is important to fix: the data may or may not be significant when doing calculations
 
 What I plan to do: identify if its necessary and either remove or keep it
-
+ 
 
 
 OTHER ISSUES I NOTICED (but won't fix in Week 2)
