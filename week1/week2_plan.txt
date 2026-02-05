@@ -1,0 +1,56 @@
+WEEK 2 CLEANING PLAN
+====================
+Name: Olivia Jezior
+Date: 05/02/2026
+
+I've completed all 5 tutorials and application checklists.
+
+Looking across all my checklists, these are the 2 most important issues 
+to address in Week 2:
+
+
+ISSUE 1 (Most Important)
+-------------------------
+Brief description: A lot of the data points arent in a standard format, ie. some are all caps,
+some have random spaces, some have spelling mistakes.
+
+Which tutorial provides the solution: 3, strings
+
+Which variable(s) affected: site and treatment 
+
+Why this is important to fix: having all the names be in a similar formate means that calculations
+and graph creations will be easier and accurate
+What I plan to do: change all the names to one, easy, standard format.
+
+
+
+ISSUE 2 (Second Most Important)
+--------------------------------
+Brief description: The NA values. Need to figure out if they are relevant or if they can just be removed
+
+Which tutorial provides the solution: 5, missing data
+
+Which variable(s) affected: collector, eggs laid, body mass
+
+Why this is important to fix: the data may or may not be significant when doing calculations
+
+What I plan to do: identify if its necessary and either remove or keep it
+
+
+
+OTHER ISSUES I NOTICED (but won't fix in Week 2)
+-------------------------------------------------
+- [Issue 3 - checking if dates are all imm correct format]
+- [Issue 4 - odd body mass values]
+- [Issue 5 - titles, they arent bad. they are clear and don't necessarily need to be changed ]
+
+
+QUESTIONS TO DISCUSS IN WEEK 2
+-------------------------------
+Things I'm still unsure about:
+
+1. is over 100mg too heavy for a mosquito?
+
+2. 
+
+3.
