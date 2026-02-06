@@ -79,3 +79,22 @@ mosquito_egg_raw_step2 <- mosquito_egg_raw_step1 |>
 view(mosquito_egg_raw_step2)
 
 
+## missing data
+
+library(tidyverse)
+mosquito_egg_raw_step2 |> 
+  group_by(treatment) |> 
+  summarise(mean = mean(eggs_laid))
+
+summary(mosquito_egg_raw_step2)
+
+mosquito_egg_raw_step2 |> 
+  group_by(treatment) |> 
+  summarise(mean = mean(eggs_hatched))
+
+
+mosquito_egg_raw_step3 <- mosquito_egg_raw_step2 |> 
+  drop_na()
+
+view(mosquito_egg_raw_step3)
+
