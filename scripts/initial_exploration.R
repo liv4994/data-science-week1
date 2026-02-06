@@ -42,4 +42,40 @@ mosquito_egg_raw |>
 # - Any obvious problems?
 # labels, orders, spellings, missing data
 
+mosquito_egg_raw_step1 <- mosquito_egg_raw |> 
+  mutate(treatment = case_when(
+    treatment == "MEDIUM_DOSE" ~ "Medium_dose",
+    treatment == "high_dose" ~ "High_dose",
+    treatment == "low_dose" ~ "Low_dose",
+    treatment == "control" ~ "Control",
+    treatment == "CONTROL" ~ "Control",
+    treatment == "LOW_DOSE" ~ "Low_dose",
+    treatment == "HIGH_DOSE" ~ "High_dose",
+    treatment == "medium_dose" ~ "Medium_dose",
+    .default = as.character(treatment)
+    
+  )
+  )
+  # check that there is exepected amount of variables.
+ # |> distinct(treatment)
+  
+mosquito_egg_raw_step2 <- mosquito_egg_raw_step1 |> 
+  mutate(site = case_when(
+    site == "Site B" ~ "Site_B",
+    site == "site_a" ~ "Site_A",
+    site == "Site-C" ~ "Site_C",
+    site == "site_c" ~ "Site_C",
+    site == "site_b" ~ "Site_B",
+    site == "Site-A" ~ "Site_A",
+    site == "Site C" ~ "Site_C",
+    site == "Site A" ~ "Site_A",
+    site == "Site-B" ~ "Site_B",
+    .default = as.character(site)
+    
+  )
+  )
+# |> distinct(site)
+
+view(mosquito_egg_raw_step2)
+
 
