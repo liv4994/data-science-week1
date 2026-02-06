@@ -258,4 +258,7 @@ penguins_flagged |>
     n_implausible = sum(!is.na(flag_implausible)),
     n_species_size = sum(!is.na(flag_species_size)),
     total_flagged = sum(any_flag)
+    
+  
   )
+
